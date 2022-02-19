@@ -1,0 +1,4 @@
+---
+slug: info
+name: Information
+---

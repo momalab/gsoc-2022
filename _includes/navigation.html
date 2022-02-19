@@ -3,7 +3,8 @@
   <ul class="header-links">
     {% if site.about_enabled == true %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
+        <!-- <a href="{{ 'about' | relative_url }}" title="About me"> -->
+        <a href="{{ site.baseurl }}{% post_url 2022-02-10-about-contact %}" title="About MoMA">
           {% include svg-icon.html icon="about" %}
         </a>
       </li>
@@ -115,7 +116,7 @@
     {% endif %}
     {% if site.social.youtube %}
       <li>
-        <a href="https://www.youtube.com/user/{{ site.social.youtube }}" rel="noreferrer noopener" target="_blank" title="Youtube">
+        <a href="https://www.youtube.com/channel/{{ site.social.youtube }}" rel="noreferrer noopener" target="_blank" title="Youtube">
           {% include svg-icon.html icon="youtube" %}
         </a>
       </li>
@@ -155,9 +156,9 @@
         </a>
       </li>
     {% endif %}
-    {% if site.social.email %}
+    {% if site.social.email == true %}
       <li>
-        <a href="mailto:{{ site.social.email }}" title="Email">
+        <a href="{{ site.baseurl }}{% post_url 2022-02-10-about-contact %}" title="Contact MoMA">
           {% include svg-icon.html icon="email" %}
         </a>
       </li>

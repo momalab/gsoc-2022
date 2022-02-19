@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>MoMA Lab GSoC</title>
+    <description></description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Welcome to GSoC 2022</title>
+        <description>General information about Google Summer of Code 2022 and MoMA Lab's participation.</description>
+        <pubDate>Mon, 14 Feb 2022 00:00:00 +0400</pubDate>
+        <link>http://localhost:4000/posts/gsoc-2022-welcome</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/gsoc-2022-welcome</guid>
+      </item>
+    
+      <item>
+        <title>GSoC 2022 Project Ideas List</title>
+        <description>Ideas for Google Summer of Code 2022 Proposals.</description>
+        <pubDate>Sun, 13 Feb 2022 00:00:00 +0400</pubDate>
+        <link>http://localhost:4000/posts/gsoc-projects-ideas-list</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/gsoc-projects-ideas-list</guid>
+      </item>
+    
+      <item>
+        <title>Writing a Successful Proposal</title>
+        <description>Advice for writing a quality GSoC proposal and the Proposal Template.</description>
+        <pubDate>Sat, 12 Feb 2022 00:00:00 +0400</pubDate>
+        <link>http://localhost:4000/posts/writing-a-successful-proposal</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/writing-a-successful-proposal</guid>
+      </item>
+    
+      <item>
+        <title>Timeline, Workflow &amp; FAQ</title>
+        <description>MoMA's GSoC Timeline, Workflow and Frequently Asked Questions.</description>
+        <pubDate>Fri, 11 Feb 2022 00:00:00 +0400</pubDate>
+        <link>http://localhost:4000/posts/timeline-workflow-faq</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/timeline-workflow-faq</guid>
+      </item>
+    
+      <item>
+        <title>About MoMA &amp; Contact Information</title>
+        <description>Information about MoMA and how to get in touch with us.</description>
+        <pubDate>Thu, 10 Feb 2022 00:00:00 +0400</pubDate>
+        <link>http://localhost:4000/posts/about-contact</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/about-contact</guid>
+      </item>
+    
+  </channel>
+</rss>

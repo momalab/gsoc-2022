@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MoMA Lab GSoC | GSoC 2022 Project Ideas List</title>
+  <meta name="description" content="Ideas for Google Summer of Code 2022 Proposals.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="GSoC 2022 Project Ideas List">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/posts/gsoc-projects-ideas-list">
+  <meta property="og:description" content="Ideas for Google Summer of Code 2022 Proposals.">
+  <meta property="og:site_name" content="MoMA Lab GSoC">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://localhost:4000/posts/gsoc-projects-ideas-list">
+  <meta name="twitter:title" content="GSoC 2022 Project Ideas List">
+  <meta name="twitter:description" content="Ideas for Google Summer of Code 2022 Proposals.">
+
+  
+    
+      <meta property="og:image" content="http://localhost:4000/assets/documentation/sample-image-0a264584b152aa8d86f61525d05ae1131787d0a1029aa1cb7e3e4148b5d34755.jpg">
+      <meta name="twitter:image" content="http://localhost:4000/assets/documentation/sample-image-0a264584b152aa8d86f61525d05ae1131787d0a1029aa1cb7e3e4148b5d34755.jpg">
+    
+  
+
+  <link href="http://localhost:4000/feed.xml" type="application/rss+xml" rel="alternate" title="MoMA Lab GSoC Last 10 blog posts" />
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/moma_icon-dc056e4e46cff34be06b83ab7abd5bc57c7fa4a3dc4e8e4011831a172fc6eaa0.png">
+      <link rel="apple-touch-icon" href="/assets/moma_icon-dc056e4e46cff34be06b83ab7abd5bc57c7fa4a3dc4e8e4011831a172fc6eaa0.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="/assets/light-bb1553a18d0f1ccfe1aabc010584c49b4277a88503216b78906ba719e30019c1.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="/assets/dark-831218bc9e41aef39ee6a0bae4501195bccafcc13101ae2b9cd20493a6ec04c0.css" disabled="false">
+    
+
+  
+
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a href="/" class="header-logo" title="MoMA Lab GSoC">MoMA Lab GSoC</a>
+  <ul class="header-links">
+    
+      <li>
+        <!-- <a href="/about" title="About me"> -->
+        <a href="/posts/about-contact" title="About MoMA">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="https://twitter.com/realMoMAlab" rel="noreferrer noopener" target="_blank" title="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/momalab" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://www.youtube.com/channel/UCr5YcJvNY2MyRq6o67jJAVw" rel="noreferrer noopener" target="_blank" title="Youtube">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-youtube">
+  <use href="/assets/youtube-e8aaee4449ebf16dda44d55c8f82df4e40f62ca5b3edc8a34fe71707eb9cf990.svg#icon-youtube" xlink:href="/assets/youtube-e8aaee4449ebf16dda44d55c8f82df4e40f62ca5b3edc8a34fe71707eb9cf990.svg#icon-youtube"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/posts/about-contact" title="Contact MoMA">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+      <li>
+        <a onclick="toggle()" title="Toggle Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-theme">
+  <use href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme" xlink:href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+
+        <article class="article scrollappear">
+          <header class="article-header">
+            <h1>GSoC 2022 Project Ideas List</h1>
+            <p>Ideas for Google Summer of Code 2022 Proposals.</p>
+            <div class="article-list-footer">
+  <span class="article-list-date">
+    February 13, 2022
+  </span>
+  <span class="article-list-divider">-</span>
+  <span class="article-list-minutes">
+    
+    
+      4 minute read
+    
+  </span>
+  <span class="article-list-divider">-</span>
+  <div class="article-list-tags">
+    
+      
+      <a href="/tag/ideas" title="See all posts with tag 'Ideas'">Ideas</a>
+    
+  </div>
+</div>
+          </header>
+
+          <div class="article-content">
+            <p>The ideas on the list presented in this page pertain to Open Source projects actively maintained by MoMA. While this list is meant to inspire Contributors to submit their proposals, it is by no means exhaustive and MoMA welcomes proposals for ideas beyond it.</p>
+
+<h2 id="index">Index</h2>
+<ul>
+  <li><a href="#design-a-test-suite-for-the-e3-framework">Design a test suite for the E3 framework</a></li>
+  <li><a href="#standardization-of-the-e3-framework-core-and-settings">Standardization of the E3 framework core and settings</a></li>
+  <li><a href="#extending-icsref-to-support-codesys-v3">Extending ICSREF to Support Codesys V3</a></li>
+</ul>
+
+<hr />
+
+<h3 id="design-a-test-suite-for-the-e3-framework">Design a test suite for the E3 framework</h3>
+
+<p>Fully Homomorphic Encryption (FHE) enables computation to be performed directly on encrypted data. Several FHE encryption schemes and supporting libraries have been proposed in recent years, each one with its own API and encryption parameters. Aiming at facilitating access to encrypted computation to non-crypto programmers and increasing the portability of FHE applications, MoMA lab has developed the E3 framework.
+The E3 framework works at a higher level of abstraction than FHE libraries. It decouples the cryptography parameters from the programming part and enables the same code to be used across different FHE libraries.
+Our framework is in constant development, with new encryption libraries and schemes being added, inclusion of new features and tools, and improvements to internals.
+Every modification to E3 requires testing to guarantee that all features are working properly. The goal of this project is to develop a comprehensive testing suite for the E3 framework covering all operations available to the user.</p>
+
+<h4 id="expected-outcome">Expected Outcome</h4>
+<p>A test suite including tests that cover all user-available operations will be developed for the E3 framework.</p>
+
+<h4 id="required-skills">Required Skills</h4>
+<p>Experience with C++</p>
+
+<h4 id="preferred-skills">Preferred Skills</h4>
+<p>Understanding of data-oblivious programming</p>
+
+<h4 id="possible-mentors">Possible Mentors</h4>
+<p>Eduardo Chielle, Oleg Mazonka</p>
+
+<h4 id="repository">Repository</h4>
+<p><a href="https://github.com/momalab/e3">https://github.com/momalab/e3</a></p>
+
+<h4 id="project-size">Project Size</h4>
+<p>Large Project (~350 hours of work)</p>
+
+<h4 id="difficulty-rating">Difficulty Rating</h4>
+<p>Hard</p>
+
+<hr />
+
+<h3 id="standardization-of-the-e3-framework-core-and-settings">Standardization of the E3 framework core and settings</h3>
+
+<p>Fully Homomorphic Encryption (FHE) enables computation to be performed directly on encrypted data. Several FHE encryption schemes and supporting libraries have been proposed in recent years, each one with its own API and encryption parameters. Aiming at facilitating access to encrypted computation to non-crypto programmers and increasing the portability of FHE applications, we developed the E3 framework.
+The E3 framework works at a higher level of abstraction than FHE libraries. It decouples the cryptography parameters from the programming part and enables the same code to be used across different FHE libraries.
+Furthermore, E3 offers secure data types to be used in a C++ program similarly to how a programmer uses integers or an array of integers in SIMD programming.
+Each library underneath E3 has its own naming convention for encryption parameters, which at the moment is passed to the crypto expert for setting up E3. 
+The first goal of this project is to standardize these parameters to be the same across different libraries and, if possible, across different encryption schemes.
+The second goal of the project is to improve the internals of the CGT tool, a part of E3 that generates the secure data types to natively support encoded arrays of plaintexts as polynomials, which we believe may increase performance for some FHE applications.</p>
+
+<h4 id="expected-outcome-1">Expected Outcome</h4>
+<ul>
+  <li>Configuration of cryptographic parameters will be standard for all underneath libraries and encryption schemes</li>
+  <li>New data types for better programming and improved performance will be available</li>
+  <li>Internals of E3 will be standardized</li>
+</ul>
+
+<h4 id="required-skills-1">Required Skills</h4>
+<p>Experience with C++</p>
+
+<h4 id="preferred-skills-1">Preferred Skills</h4>
+<p>Understanding of data-oblivious programming</p>
+
+<h4 id="possible-mentors-1">Possible Mentors</h4>
+<p>Eduardo Chielle, Oleg Mazonka</p>
+
+<h4 id="repository-1">Repository</h4>
+<p><a href="https://github.com/momalab/e3">https://github.com/momalab/e3</a></p>
+
+<h4 id="project-size-1">Project Size</h4>
+<p>Large Project (~350 hours of work)</p>
+
+<h4 id="difficulty-rating-1">Difficulty Rating</h4>
+<p>Hard</p>
+
+<hr />
+
+<h3 id="extending-icsref-to-support-codesys-v3">Extending ICSREF to Support Codesys V3</h3>
+
+<p>Industrial Control Systems (ICS) play an important role in monitoring, automating and controlling manufacturing, energy and critical infrastructure processes (e.g: water desalination, smart energy grids, assembly lines etc.).
+Devices found in ICS like Programmable Logic Controllers (PLCs) are programmed using domain specific programming languages, such as Structured Text, that are compiled to specialty vendor binaries.
+ICSREF is a Reverse Engineering framework for ICS binaries that is used extensively by the ICS security research community.
+The framework has a modular design that allows it to be extended to support binaries belonging to various PLC software ecosystems. 
+ICSREF initially enabled reverse engineering Codesys V2 binaries, but has the ability to be extended to support binaries of the newer Codesys V3 runtime.</p>
+
+<h4 id="expected-outcome-2">Expected Outcome</h4>
+<p>ICSREF will be extended to support reverse engineering Codesys V3 ICS binaries.</p>
+
+<h4 id="required-skills-2">Required Skills</h4>
+<p>Python</p>
+
+<h4 id="preferred-skills-2">Preferred Skills</h4>
+<p>Experience with radare2 and Angr</p>
+
+<h4 id="possible-mentors-2">Possible Mentors</h4>
+<p>Michail Maniatakos, Constantine Doumanidis, Prashant Rajput</p>
+
+<h4 id="repository-2">Repository</h4>
+<p><a href="https://github.com/momalab/ICSREF">https://github.com/momalab/ICSREF</a></p>
+
+<h4 id="project-size-2">Project Size</h4>
+<p>Large Project (~350 hours of work)</p>
+
+<h4 id="difficulty-rating-2">Difficulty Rating</h4>
+<p>Hard</p>
+
+<hr />
+
+          </div>
+          <div class="article-share">
+            
+            
+            <a href="https://twitter.com/home?status=GSoC+2022+Project+Ideas+List%20-%20http://localhost:4000/posts/gsoc-projects-ideas-list%20by%20@realMoMAlab" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6 -18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6 0.8 15 2.5 22.1 -80.5-4-151.9-42.6-199.6-101.3 -8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7C67 210.7 52 206.3 39 199c0 0.4 0 0.8 0 1.2 0 47 33.4 86.1 77.7 95 -8.1 2.2-16.7 3.4-25.5 3.4 -6.2 0-12.3-0.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3 -33.1 26-74.9 41.5-120.3 41.5 -7.8 0-15.5-0.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-0.1-8.4-0.3-12.5C462.6 146 479 129 492 109.5z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/gsoc-projects-ideas-list" title="Share on Facebook" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64H288z"/></svg>
+            </a>
+          </div>
+
+          
+        </article>
+        <footer class="footer scrollappear">
+  <p>
+    Chalk is a high quality, completely customizable, performant and 100% free
+    blog template for Jekyll built by
+    <a href="/about" title="About me">Nielsen Ramon</a>. Download it <a href="https://github.com/nielsenramon/chalk" rel="noreferrer noopener" target="_blank" title="Download Chalk">here</a>.
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-220174998-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-220174998-1');
+  </script>
+
+
+<script type="text/javascript" src="/assets/vendor-734ddaa553ebf4e6ca703bd7c567ef4a0e43b0ba799607355e56b81e88781318.js"></script>
+
+
+  <script type="text/javascript" src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js"></script>
+
+
+
+  <script type="text/javascript" src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js"></script>
+
+
+<script type="text/javascript" src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js"></script>
+
+
+  <script type="text/javascript" src="/assets/themetoggle-df0d3d73164dc26dffbd630182ae4d0dfa7bee6b694a2b5d565d73595b582bbf.js"></script>
+
+</body>
+</html>

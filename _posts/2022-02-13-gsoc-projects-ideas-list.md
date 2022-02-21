@@ -10,6 +10,7 @@ The ideas on the list presented in this page pertain to Open Source projects act
 
 ## Index
 - [Extending ICSREF to support Codesys V3 binaries](#extending-icsref-to-support-codesys-v3-binaries)
+- [Development of Machine Learning Techniques for Industrial Control Systems](#development-of-machine-learning-techniques-for-industrial-control-systems)
 - [Standardization of the E3 framework core and settings](#standardization-of-the-e3-framework-core-and-settings)
 - [Design a test suite for the E3 framework](#design-a-test-suite-for-the-e3-framework)
 
@@ -45,6 +46,38 @@ Large Project (~350 hours of work)
 Hard
 
 ---
+
+
+### Development of Machine Learning Techniques for Industrial Control Systems
+
+Industrial Control Systems (ICS) play an important role in monitoring, automating and controlling manufacturing, energy and critical infrastructure processes (e.g: water desalination, smart energy grids, assembly lines etc.). 
+Running Machine Learning (ML) algorithms on ICS devices has many applications including cybersecurity, anomaly detection and predictive maintenance.
+The aim of this project is to develop ML primitive components using Structured Text, a domain specific programming language defined in the IEC 61131-3 Standard with similarities to C and Pascal.  The development of these primitives will enable the efficient native execution of ML models on low-end ICS hardware like Programmable Logic Controllers (PLC). Such primitives include Convolution, Pooling, LSTM and GRU layers.
+
+#### Expected Outcome
+By the end of the project, the ICSML framework should be enhanced with code to support a plethora of new ML primitives including Convolutions, Pooling, LSTMs and others.
+
+#### Required Skills
+Python. Basic understanding of ML Algorithms. Comfortable with Linux.
+
+#### Preferred Skills
+Experience with an ML framework (e.g: TensorFlow/Keras, Pytorch). 
+Experience with C-style programming languages.
+
+#### Possible Mentors
+Constantine Doumanidis, Esha Sarkar, Manaar Alam
+
+#### Repository
+[https://github.com/momalab/ICSML](https://github.com/momalab/ICSML)
+
+#### Project Size
+Large Project (~350 hours of work)
+
+#### Difficulty Rating
+Medium
+
+---
+
 
 ### Standardization of the E3 framework core and settings
 

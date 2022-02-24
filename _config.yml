@@ -11,7 +11,7 @@ baseurl: /gsoc-2022
 
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
 discus_identifier: # Add your Disqus identifier
-ga_analytics: UA-220174998-1 # Add your GA Tracking Id
+ga_analytics: # Add your GA Tracking Id (MoMA: UA-220174998-1)
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
